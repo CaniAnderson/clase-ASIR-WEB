@@ -74,5 +74,7 @@ switch ($colores) {
 
 ?>
 
+
+<a href="Web ASIR.html">Volver a la página principal</a>
 </body>
 </html>
