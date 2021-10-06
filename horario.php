@@ -129,7 +129,8 @@ $dia = date("l");
 
 switch ($dia) {
     case 'Monday':
-        echo" 
+        echo"
+        <table> 
         <tr>
         <td>ASO</td>
         </tr>
@@ -151,6 +152,7 @@ switch ($dia) {
         <tr>
         <td>EMPRESA</td>
         </tr>
+        </table>
     ";
         break;
     case 'Tuesday':    
@@ -179,14 +181,86 @@ switch ($dia) {
 ";
         break;
     case 'Wednesday':;
-        echo "Estamos en: ".$dia."<br>";
-        break;    
+    echo"
+    <table> 
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>RECREO</td>
+    </tr>
+    <tr>
+    <td>SEGURIDAD</td>
+    </tr>
+    <tr>
+    <td>EMPRESA</td>
+    </tr>
+    <tr>
+    <td>EMPRESA</td>
+    </tr>
+    </table>
+";
+    break;    
     case 'Thursday':;
-        echo "Estamos en: ".$dia."<br>";
-        break;
+    echo"
+    <table> 
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>RECREO</td>
+    </tr>
+    <tr>
+    <td>SEGURIDAD</td>
+    </tr>
+    <tr>
+    <td>EMPRESA</td>
+    </tr>
+    <tr>
+    <td>EMPRESA</td>
+    </tr>
+    </table>
+";
+    break;
     case 'Friday':;
-        echo "Estamos en: ".$dia."<br>";
-        break;
+    echo"
+    <table> 
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>ASO</td>
+    </tr>
+    <tr>
+    <td>RECREO</td>
+    </tr>
+    <tr>
+    <td>SEGURIDAD</td>
+    </tr>
+    <tr>
+    <td>EMPRESA</td>
+    </tr>
+    <tr>
+    <td>EMPRESA</td>
+    </tr>
+    </table>
+";
+    break;
     default:
         echo "Estamos en fin de semana"."<br>";
         break;
