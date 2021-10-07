@@ -108,28 +108,20 @@ echo "<table>";
 
 $t = date("H");
 if ($t == "8") {
-    echo "".$t."<br>";
-    echo "Asignatura: ".$t;
+    echo "Son las: ".$t;
 }elseif($t == "9"){
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 }elseif($t == "10"){
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 }elseif($t == "11"){
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 }elseif($t == "12"){
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 }elseif($t == "13"){
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 }elseif($t == "14"){
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 }else{
-    echo "Últimos 10 t =="."<br>";
     echo "Son las: ".$t; 
 
 }
@@ -142,150 +134,287 @@ switch ($dia) {
         echo"
         <table>
         <tr>
+        <td>HORA</td>
         <td>LUNES</td>
         </tr> 
         <tr>
+        <td>8:00</td>
         <td>APP WEB</td>
         </tr>
         <tr>
+        <td>9:00</td>
         <td>APP WEB</td>
         </tr>
         <tr>
+        <td>10:00</td>
         <td>APP WEB</td>
         </tr>
         <tr>
+        <td>11:00</td>
         <td>RECREO</td>
         </tr>
         <tr>
+        <td>12:00</td>
         <td>SERV RED</td>
         </tr>
         <tr>
+        <td>13:00</td>
         <td>SERV RED</td>
         </tr>
         <tr>
+        <td>14:00</td>
         <td>SERV RED</td>
         </tr>
-        </table>
-    ";
+        </table>";
+        echo "<br>"."<br>";
+
+    $t = date("H");
+    if ($t == "8") {
+        echo "Estamos en: APP WEB";
+    }elseif($t == "9"){
+        echo "Estamos en: APP WEB"; 
+    }elseif($t == "10"){
+        echo "Estamos en: APP WEB"; 
+    }elseif($t == "11"){
+        echo "Estamos en: RECREO"; 
+    }elseif($t == "12"){
+        echo "Estamos en: SERV RED"; 
+    }elseif($t == "13"){
+        echo "Estamos en: SERV RED"; 
+    }elseif($t == "14"){
+        echo "Estamos en: SERV RED"; 
+    }else{
+        echo "Estamos en: CASA"; 
+    
+    }   ;
         break;
     case 'Tuesday':    
     echo" 
         <table> 
         <tr>
+        <td>HORA</td>
         <td>MARTES</td>
         </tr> 
         <tr>
+        <td>8:00</td>
         <td>ASO</td>
         </tr>
         <tr>
+        <td>9:00</td>
         <td>ASO</td>
         </tr>
         <tr>
+        <td>10:00</td>
         <td>ASO</td>
         </tr>
         <tr>
+        <td>11:00</td>
         <td>RECREO</td>
         </tr>
         <tr>
+        <td>12:00</td>
         <td>SEGURIDAD</td>
         </tr>
         <tr>
+        <td>13:00</td>
         <td>EMPRESA</td>
         </tr>
         <tr>
+        <td>14:00</td>
         <td>EMPRESA</td>
         </tr>
-    ";
+        <table>";
+        echo "<br>"."<br>";
+        $t = date("H");
+        if ($t == "8") {
+            echo "Estamos en: ASO";
+        }elseif($t == "9"){
+            echo "Estamos en: ASO"; 
+        }elseif($t == "10"){
+            echo "Estamos en: ASO"; 
+        }elseif($t == "11"){
+            echo "Estamos en: RECREO"; 
+        }elseif($t == "12"){
+            echo "Estamos en: SEGURIDAD"; 
+        }elseif($t == "13"){
+            echo "Estamos en: EMPRESA"; 
+        }elseif($t == "14"){
+            echo "Estamos en: EMPRESA"; 
+        }else{
+            echo "Estamos en: CASA"; 
+        
+        }   ;
         break;
     case 'Wednesday':;
     echo"
         <table> 
         <tr>
+        <td>HORA</td>
         <td>MIÉRCOLES</td>
         </tr> 
         <tr>
+        <td>8:00</td>
         <td>ASO</td>
         </tr>
         <tr>
+        <td>9:00</td>
         <td>ASO</td>
         </tr>
         <tr>
+        <td>10:00</td>
         <td>ASO</td>
         </tr>
         <tr>
+        <td>11:00</td>
         <td>RECREO</td>
         </tr>
         <tr>
+        <td>12:00</td>
         <td>SERV RED</td>
         </tr>
         <tr>
+        <td>13:00</td>
         <td>SERV RED</td>
         </tr>
         <tr>
+        <td>14:00</td>
         <td>SERV RED</td>
         </tr>
-        </table>
-    ";
+        </table>";
+        echo "<br>"."<br>";
+        $t = date("H");
+        if ($t == "8") {
+            echo "Estamos en: ASO";
+        }elseif($t == "9"){
+            echo "Estamos en: ASO"; 
+        }elseif($t == "10"){
+            echo "Estamos en: ASO"; 
+        }elseif($t == "11"){
+            echo "Estamos en: RECREO"; 
+        }elseif($t == "12"){
+            echo "Estamos en: SERV RED"; 
+        }elseif($t == "13"){
+            echo "Estamos en: SERV RED"; 
+        }elseif($t == "14"){
+            echo "Estamos en: SERV RED"; 
+        }else{
+            echo "Estamos en: CASA"; 
+        
+        }   ;
     break;    
     case 'Thursday':;
     echo"
         <table> 
         <tr>
+        <td>HORA</td>
         <td>JUEVES</td>
         </tr> 
         <tr>
+        <td>8:00</td>
         <td>BD</td>
         </tr>
         <tr>
+        <td>9:00</td>
         <td>BD</td>
         </tr>
         <tr>
+        <td>10:00</td>
         <td>BD</td>
         </tr>
         <tr>
+        <td>11:00</td>
         <td>RECREO</td>
         </tr>
         <tr>
+        <td>12:00</td>
         <td>SEGURIDAD</td>
         </tr>
         <tr>
+        <td>13:00</td>
         <td>INGLÉS</td>
         </tr>
         <tr>
+        <td>14:00</td>
         <td>INGLÉS</td>
         </tr>
-        </table>
-    ";
+        </table>";
+        echo "<br>"."<br>";
+        $t = date("H");
+        if ($t == "8") {
+            echo "Estamos en: BD";
+        }elseif($t == "9"){
+            echo "Estamos en: BD"; 
+        }elseif($t == "10"){
+            echo "Estamos en: BD"; 
+        }elseif($t == "11"){
+            echo "Estamos en: RECREO"; 
+        }elseif($t == "12"){
+            echo "Estamos en: SEGURIDAD"; 
+        }elseif($t == "13"){
+            echo "Estamos en: INGLÉS"; 
+        }elseif($t == "14"){
+            echo "Estamos en: INGLÉS"; 
+        }else{
+            echo "Estamos en: CASA"; 
+        
+        }   ;
     break;
     case 'Friday':;
     echo"
         <table> 
         <tr>
+        <td>HORA</td>
         <td>VIERNES</td>
         </tr> 
         <tr>
+        <td>8:00</td>
         <td>INGLÉS</td>
         </tr>
         <tr>
+        <td>9:00</td>
         <td>SEGURIDAD</td>
         </tr>
         <tr>
+        <td>10:00</td>
         <td>SEGURIDAD</td>
         </tr>
         <tr>
+        <td>11:00</td>
         <td>RECREO</td>
         </tr>
         <tr>
+        <td>12:00</td>
         <td>APP WEB</td>
         </tr>
         <tr>
+        <td>13:00</td>
         <td>EMPRESA</td>
         </tr>
         <tr>
+        <td>14:00</td>
         <td>EMPRESA</td>
         </tr>
-        </table>
-    ";
+        </table>";
+        echo "<br>"."<br>";
+        $t = date("H");
+        if ($t == "8") {
+            echo "Estamos en: INGLÉS";
+        }elseif($t == "9"){
+            echo "Estamos en: SEGURIDAD"; 
+        }elseif($t == "10"){
+            echo "Estamos en: SEGURIDAD"; 
+        }elseif($t == "11"){
+            echo "Estamos en: RECREO"; 
+        }elseif($t == "12"){
+            echo "Estamos en: APP WEB"; 
+        }elseif($t == "13"){
+            echo "Estamos en: EMPRESA"; 
+        }elseif($t == "14"){
+            echo "Estamos en: EMPRESA"; 
+        }else{
+            echo "Estamos en: CASA"; 
+        
+        }   ;
     break;
     default:
         echo "Estamos en fin de semana"."<br>";
