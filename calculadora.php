@@ -23,10 +23,24 @@
             <input type="button" name="" value="%"></p>
             <p><input type="button" name="" value="Resolver"></p>
         </fieldset>
-        <p>Resultado</p>
+        <h3>Resultado: </h3>
         <p><a href="Web ASIR.html">Volver a la página principal</a></p>
     </form>
+    
+<?php
 
+function suma($num1,$num2){
+
+    $res= $num1 + $num2;
+
+    echo "El resultado es: ".$res."<br>";
+
+}
+
+suma (3,2);
+suma (3,3);
+
+?>
 
 </body>
 </html>
