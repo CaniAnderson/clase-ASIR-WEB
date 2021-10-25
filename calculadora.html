@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <form method="POST" action="calculadora functions.php">
+        <fieldset>
+            <legend>Calculadora</legend>
+            <p><label for="fname">Número 1:</label>
+            <input type="text" id="fname" name="fname"></p>
+            <p><label for="lname">Número 2:</label>
+            <input type="text" id="lname" name="lname"></p>
+            <p>Operaciones:</p>
+            <select name="operador">
+            <p><option value="+">Suma</option>
+            <option value="-">Resta</option>
+            <option value="x">Multiplicación</option>
+            <option value="/">División</option>
+            <option value="√">Raiz cuadrada</option>
+            <option value="n2">Elevado a 2</option>
+            <option value="n3">Elevado a 3</option>
+            <option value="xn">Elevado a n</option>
+            <option value="%">Resto</option>
+            <option value="fibonacci">Fibonacci</option></select></p>
+            <p><input type="submit" value="Resolver" name="resolver"></p>
+        </fieldset>
+        <h3>Resultado: </h3>
+        <p><a href="Web ASIR.html">Volver a la página principal</a></p>
+    </form>
+
+
+</body>
+</html>
