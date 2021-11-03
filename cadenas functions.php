@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadenas</title>
 </head>
 <body>
 <?php
@@ -27,45 +27,50 @@
 #1 texto 1, 2 texto 2, 3 texto 3
 
 function cuentaletras($input){
-    strlen($input)
+    strlen($input);
+    echo "Hay ".strlen($input)." caracteres";
 }
 
 function cuentapalabras($input){
-    str_word_count($input)
+    str_word_count($input);
+    echo "Hay ".str_word_count($input)." palabras";
 }
 
 function invierte($input){
-    strrev($input)
+    strrev($input);
+    echo strrev($input);
 }
 
 function reemplazar($palabra, $modificar, $input){
-    str_replace($palabra,$modificar,$input)
+    str_replace($palabra,$modificar,$input);
+    echo str_replace($palabra,$modificar,$input);
 }
 
 function buscar($input, $busca){
-    strpos($input,$busca) 
+    strpos($input,$busca);
+    echo strpos($input,$busca);
 }
 
 $var1=$_POST["texto1"];
 $var2=$_POST["texto2"];
 $var3=$_POST["texto3"];
-$selector=$_POST["operador"];
+$selector=$_POST["texto"];
 
 switch ($selector) {
     case 'cuentac':
-       cuentaletras($var1)
+       cuentaletras($var1);
     break;
     case 'cuentap':
-        cuentapalabras($var2)
+        cuentapalabras($var2);
     break;
     case 'invierte':
-        invierte($var3)
+        invierte($var3);
     break;
     case 'busca':
-        buscar($var1,$var2)
+        buscar($var1,$var2);
     break;
     case 'reemplaza':
-        reemplazar($var3,$var2,$var1)
+        reemplazar($var3,$var2,$var1);
     break;
     default:
         
