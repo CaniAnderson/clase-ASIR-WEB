@@ -27,28 +27,32 @@
 #1 texto 1, 2 texto 2, 3 texto 3
 
 function cuentaletras($input){
-    strlen($input);
-    echo "Hay ".strlen($input)." caracteres";
+    $res=strlen($input);
+    echo "Hay ".$res." caracteres";
 }
 
 function cuentapalabras($input){
-    str_word_count($input);
-    echo "Hay ".str_word_count($input)." palabras";
+    $res=str_word_count($input);
+    echo "Hay ".$res." palabras";
 }
 
 function invierte($input){
-    strrev($input);
-    echo strrev($input);
+    $res=strrev($input);
+    echo "El texto invertido es: ".$res;
 }
 
 function reemplazar($palabra, $modificar, $input){
-    str_replace($palabra,$modificar,$input);
-    echo str_replace($palabra,$modificar,$input);
+    $res=str_replace($palabra,$modificar,$input);
+    echo $res;
 }
 
 function buscar($input, $busca){
-    strpos($input,$busca);
-    echo strpos($input,$busca);
+    $res=strpos($input,$busca);
+    if ($res==True) {
+        echo "La palabra se encuentra en el texto";
+    } else {
+        echo "La palabra no se encuentra en el texto";
+    } 
 }
 
 $var1=$_POST["texto1"];
@@ -61,10 +65,10 @@ switch ($selector) {
        cuentaletras($var1);
     break;
     case 'cuentap':
-        cuentapalabras($var2);
+        cuentapalabras($var1);
     break;
     case 'invierte':
-        invierte($var3);
+        invierte($var1);
     break;
     case 'busca':
         buscar($var1,$var2);
@@ -78,9 +82,9 @@ switch ($selector) {
 }
 
 
-
-
 ?>
+
+<p><a href="https://www.youtube.com/watch?v=XgpH-8W-Eyc" target="_blank">Volver al formulario</a></p>
 
 </body>
 </html>
