@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelos</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <form method="POST" action="vuelos functions.php">
+        <fieldset>
+            <legend>Gestión de vuelos</legend>
+            <fieldset>
+                <legend>Vuelo 1</legend>
+                <p><label for="texto1">Código:</label>
+                <input type="text" id="texto1" name="infovuelo1[codigo1]"></p>
+                <p><label for="texto2">Ciudad de origen:</label>
+                <input type="text" id="texto2" name="infovuelo1[ciudadorigen1]"></p>
+                <p><label for="texto3">Ciudad de destino</label>
+                <input type="text" id="texto3" name="infovuelo1[ciudaddestino1]"></p>
+                <p><label for="texto4">Precio:</label>
+                <input type="text" id="texto4" name="infovuelo1[precio1]"></p>
+                <p><label for="texto5">Fecha de salida:</label>
+                <input type="date" id="texto5" name="infovuelo1[fecha1]"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Vuelo 1</legend>
+                <p><label for="textov1">Código:</label>
+                <input type="text" id="textov1" name="infovuelo2[codigo2]"></p>
+                <p><label for="textov2">Ciudad de origen:</label>
+                <input type="text" id="textov2" name="infovuelo2[ciudadorigen2]"></p>
+                <p><label for="textov3">Ciudad de destino</label>
+                <input type="text" id="textov3" name="infovuelo2[ciudaddestino2]"></p>
+                <p><label for="textov4">Precio:</label>
+                <input type="text" id="textov4" name="infovuelo2[precio2]"></p>
+                <p><label for="textov5">Fecha de salida:</label>
+                <input type="date" id="textov5" name="infovuelo2[fecha2]"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Herramientas</legend>
+                <p><select name="herramienta">
+                    <option hidden selected>Selecciona una opción</option>
+                    <option value="une">Unir vuelos</option>
+                    <option value="difr">Diferencia entre vuelos</option>
+                    <option value="orde">Ordenar vuelos</option>
+                    <option value="info">Información común</option>
+                </select>
+            </fieldset>          
+        </fieldset>
+        <p><input type="submit" value="Enviar consulta" name="resolver">
+        <input type="reset" value="Reset" name="resolver"></p>
+    </form>
+
+    <p><a href="Web ASIR.html">Volver a la página principal</a></p>
+
+</body>
+
+
+
+</html>
