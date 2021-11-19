@@ -41,7 +41,7 @@ if(isset($_POST["infovuelo1"]) && isset($_POST["infovuelo2"])){
     #Ordena
     function ordV($vuelo1,$vuelo2){
         $var=array_merge($vuelo1,$vuelo2);
-        sort($var);
+        ksort($var);
         echo "<b>"."Datos del vuelo: "."</b>";
         print_r($var);
     }
